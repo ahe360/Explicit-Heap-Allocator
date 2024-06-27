@@ -1,4 +1,5 @@
 Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved. 
+
 May not be used, modified, or copied without permission
 
 # Dynamic Storage Alocator
@@ -7,23 +8,23 @@ Implementation of an explicit heap allocator with an explicit free-list with LIF
 
 # Main Files:
 
-mm.{c,h}
+- mm.{c,h}
 	Solution malloc/free package. mm.c is the primary file that implements memory allocation logic
 
-mdriver.c
+- mdriver.c
 	Testing file for mm.c
 
-Makefile
+- Makefile
 	Builds the driver
 
 # Support files for the driver
 
-config.h	Configures the malloc lab driver
-fsecs.{c,h}	Wrapper function for the different timer packages
-clock.{c,h}	Routines for accessing the Pentium and Alpha cycle counters
-fcyc.{c,h}	Timer functions based on cycle counters
-ftimer.{c,h}	Timer functions based on interval timers and gettimeofday()
-memlib.{c,h}	Models the heap and sbrk function
+- config.h:	Configures the malloc lab driver
+- fsecs.{c,h}:	Wrapper function for the different timer packages
+- clock.{c,h}:	Routines for accessing the Pentium and Alpha cycle counters
+- fcyc.{c,h}:	Timer functions based on cycle counters
+- ftimer.{c,h}:	Timer functions based on interval timers and gettimeofday()
+- memlib.{c,h}:	Models the heap and sbrk function
 
 # Testing
 To build the driver, type "make" to the shell.
