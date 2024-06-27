@@ -8,14 +8,11 @@ Implementation of an explicit heap allocator with an explicit free-list with LIF
 
 # Main Files:
 
-- mm.{c,h}
-	Solution malloc/free package. mm.c is the primary file that implements memory allocation logic
+- mm.{c,h}: Solution malloc/free package. mm.c is the primary file that implements memory allocation logic
 
-- mdriver.c
-	Testing file for mm.c
+- mdriver.c: Testing file for mm.c
 
-- Makefile
-	Builds the driver
+- Makefile: Builds the driver
 
 # Support files for the driver
 
